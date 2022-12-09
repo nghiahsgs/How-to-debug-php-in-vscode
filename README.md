@@ -36,18 +36,20 @@ php -m | grep "xdebug"
 
 ```
 
-# Step3: Open vs code and install extension
-```
-extension name : php debug
-```
-
-Click debug button (left menu of vs code), click create lanch file (port 9003) and enjoy the debugger !
 
 
-Step4: Add config on php.ini
+# Step3: Add config on php.ini
 ```
 zend_extension="xdebug.so"
 xdebug.mode = debug
 xdebug.start_with_request = yes
 xdebug.client_port=9003
 ```
+
+
+# Step4: Open vs code and install extension
+```
+extension name : php debug
+```
+
+Click debug button (left menu of vs code), click create lanch file (port 9003) and enjoy the debugger !
