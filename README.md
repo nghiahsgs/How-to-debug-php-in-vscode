@@ -42,3 +42,12 @@ extension name : php debug
 ```
 
 Click debug button (left menu of vs code), click create lanch file and enjoy the debugger !
+
+
+Step4: Add config on php.ini
+```
+zend_extension="xdebug.so"
+xdebug.mode = debug
+xdebug.start_with_request = yes
+xdebug.client_port=9003
+```
