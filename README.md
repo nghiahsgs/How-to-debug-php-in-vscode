@@ -41,7 +41,7 @@ php -m | grep "xdebug"
 extension name : php debug
 ```
 
-Click debug button (left menu of vs code), click create lanch file and enjoy the debugger !
+Click debug button (left menu of vs code), click create lanch file (port 9003) and enjoy the debugger !
 
 
 Step4: Add config on php.ini
