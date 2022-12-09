@@ -38,7 +38,7 @@ php -m | grep "xdebug"
 
 # Step3: Open vs code and install extension
 ```
-php debug
+extension name : php debug
 ```
 
 Click debug button (left menu of vs code), click create lanch file and enjoy the debugger !
