@@ -39,6 +39,10 @@ php -m | grep "xdebug"
 
 
 # Step3: Add config on php.ini on mac os
+how to show location of php.ini
+```
+php --ini
+```
 ```
 zend_extension="xdebug.so"
 xdebug.mode = debug
