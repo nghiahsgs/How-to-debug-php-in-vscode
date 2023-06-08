@@ -27,7 +27,7 @@ php -v
 
 # Step 2: Install xdebug
 ```
-pecl install xdebug
+sudo pecl install xdebug
 ```
 
 check xdebug is inserted to php or not ?
